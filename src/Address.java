@@ -1,54 +1,64 @@
 public class Address {
-    String street ;
+    String street;
     String city;
     String state;
     String postalcode;
     String country;
 
+    public Address() {
 
+    }
 
+    public Address() {
 
-public void setstreet (String Street){
+    }
 
-    this.street=Street;
-}
+    public Address() {
 
-public String getstreet (){
+    }
 
-    return street;
-}
+    public void setstreet(String Street) {
 
-public void setcity(String city){
-this.city=city;
-}
+        this.street = Street;
+    }
 
-public String getcity(){
-return city;
+    public String getstreet() {
 
-}
+        return street;
+    }
 
-public void setstate(String state){
+    public void setcity(String city) {
+        this.city = city;
+    }
 
-this.state=state;
-}
+    public String getcity() {
+        return city;
 
-public String getstate(){
-    return state;
-}
+    }
 
-public void setpostalcode(String postalcode){
-this.postalcode=postalcode;
-}
+    public void setstate(String state) {
 
-public String getpostalcode(){
-    return postalcode;
-}
+        this.state = state;
+    }
 
-public void setcountry(String country){
-this.country=country;
-}
+    public String getstate() {
+        return state;
+    }
 
-public String getcountry(){
-    return country;
+    public void setpostalcode(String postalcode) {
+        this.postalcode = postalcode;
+    }
 
+    public String getpostalcode() {
+        return postalcode;
+    }
+
+    public void setcountry(String country) {
+        this.country = country;
+    }
+
+    public String getcountry() {
+        return country;
+
+    }
 }
