@@ -28,31 +28,37 @@ public abstract class Person {
         this.email = email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    
     public void setFname(String fname) {
         this.fname = fname;
-    }
-    public void setGovID(String govID) {
-        GovID = govID;
     }
     public void setLname(String lname) {
         this.lname = lname;
     }
-    public String getEmail() {
-        return email;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
+    public void setGovID(String govID) {
+        GovID = govID;
+    }
+   
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
     public String getFname() {
         return fname;
-    }
-    public String getGovID() {
-        return GovID;
     }
     public String getLname() {
         return lname;
     }
     public String getPhoneNumber() {
         return phoneNumber;
+    }
+    public String getGovID() {
+        return GovID;
+    }
+    public String getEmail() {
+        return email;
     }
 }
