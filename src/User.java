@@ -1,27 +1,53 @@
-public class User extends Person {
-    int Age;
-    double hight;
-    double Weidth;
+public class useraccount {
+    String username;
+    int age;
+    int height;
+    String location;
 
-    public User(){
-        this.Age = null;
-        this.hight = null;
-        this.Weidth = null;
-    }
+public useraccount(String username, int age, int height,String location){
+this.username=username;
+this.age=age;
+this.height=height;
+this.location=location;
+}
 
-    public User(
-        int Age;
-        double hight;
-        double Weidth;
+public void setusername(String username){
+this.username=username;
+}
 
+public String getusername(){
 
-    ){
-        this.Age = Age;
-        this.hight = hight;
-        this.Weidth = Weidth;
+    return username;
+}
 
-    }
+public void setage (int age){
 
-    
+    this.age=age;
+
+}
+public int getage(){
+
+    return age;
+}
+
+public void setheight(int height){
+
+this.height=height;
+}
+
+public int getheight(){
+    return height;
+}
+public void setlocation(String location){
+    this.location=location;
+}
+
+public void print_all_details(){
+
+    System.out.println("username = " + username);
+    System.out.println("age = " + age);
+    System.out.println("height = " + height );
+    System.out.println("location = "+ location);
+}
 
 }
