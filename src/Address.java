@@ -1,54 +1,47 @@
+import java.util.Scanner;
+
 public class Address {
-    String street ;
+    String street;
     String city;
-    String state;
-    String postalcode;
     String country;
 
+    Scanner scan = new Scanner(System.in);
 
+    public Address() {
+    }
 
+    public Address(
+            String street,
+            String city,
+            String country) {
+        this.street = street;
+        this.city = city;
+        this.country = country;
+    }
 
-public void setstreet (String Street){
+    public void setCity(String city) {
+        this.city = city;
+    }
 
-    this.street=Street;
-}
+    public void setCountry(String country) {
+        this.country = country;
+    }
 
-public String getstreet (){
+    public void setStreet(String street) {
+        this.street = street;
+    }
 
-    return street;
-}
+    public String getstreet() {
 
-public void setcity(String city){
-this.city=city;
-}
+        return street;
+    }
 
-public String getcity(){
-return city;
+    public String getcity() {
+        return city;
 
-}
+    }
 
-public void setstate(String state){
-
-this.state=state;
-}
-
-public String getstate(){
-    return state;
-}
-
-public void setpostalcode(String postalcode){
-this.postalcode=postalcode;
-}
-
-public String getpostalcode(){
-    return postalcode;
-}
-
-public void setcountry(String country){
-this.country=country;
-}
-
-public String getcountry(){
-    return country;
-
+    public String getcountry() {
+        return country;
+    }
 }
